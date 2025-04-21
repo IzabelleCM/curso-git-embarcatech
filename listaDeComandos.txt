@@ -1,0 +1,20 @@
+LISTA DE COMANDOS UTILIZADOS:
+
+$ git init
+
+$ git branch -M main
+
+$ git config user.name "Izabelle"
+$ git config user.email "izabelle3cia@gmail.com"
+
+$ git config --list --local
+
+$ git add dadosEmbarcatech.txt
+
+$ git commit -m "Primeiro commit - dados"
+
+$ git remote add origin https://github.com/IzabelleCM/curso-git-embarcatech.git
+
+$ git push -u origin main
+
+OBS: os mesmos comandos a partir de "git add" serão utilizados para enviar o commit do novo arquivo ao github, a única diferença é que no add é necessário colocar o nome do arquivo correspondente, e não precisa mais colocar o link do repositório remoto.
